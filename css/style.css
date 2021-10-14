@@ -1,0 +1,182 @@
+html , body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #959CAD;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  color: #F2A341;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.color-bg {
+  background-color: rgba(242, 163, 65, 0.1);
+}
+.light-bg {
+  background-color: #E5E5E5;
+}
+.item-container {
+  padding: 80px 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.color-text {
+  color: #F2A341;
+}
+.custom-btn {
+  background-color:rgba(242, 163, 65, 1);
+  color: white;
+}
+
+/* Banner Custom Seach Bar  */
+.banner-custom-search {
+  position: relative;
+}
+.banner-custom-search-input {
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 100px 10px 20px; 
+  line-height: 2;
+  box-sizing: border-box;
+  outline: none;
+}
+.banner-custom-search-botton {
+  position: absolute;
+  right: 37px; 
+  top: 3px;
+  bottom: 5px;
+  border: 0;
+  background: #F2A341;
+  color: #fff;
+  outline: none;
+  margin: 1px;
+  padding: 0 25px;
+  border-radius: 100px;
+  z-index: 2;
+}
+
+.play-btn {
+  background-image: url(/images/button-icon.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  z-index: 3;
+  background-position: 5px;
+  padding: 16px 20px 15px 60px;
+}
+
+.mission-item {
+  background-image: url(/images/mission-bg.png);
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-size: 800px 570px;
+}
+
+.app-store img {
+  margin: 30px 30px 0px 0px;
+}
+.food-delivery img {
+  width: 430px;
+  height: 520px;
+  margin: 0 auto;
+  display: block;
+}
+.item-padding {
+  padding: 0 30px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.searchbar{
+    width: 150px;
+}
+
+.custom-search {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .custom-search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 2;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .custom-search-botton {
+    position: absolute;
+    right: 3px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #F2A341;
+    color: #fff;
+    outline: none;
+    margin: 1px;
+    padding: 0 25px;
+    border-radius: 100px;
+    z-index: 2;
+  }
+
+  .best-p {
+    font-size: 11px;
+    margin: 25px;
+  }
+
+  .semibold {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #F2A341;
+  }
+  .price-discount {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+    text-decoration-color: #F2A341;
+    text-decoration-thickness: 3px;
+    margin-right: auto;
+    margin-left: 30px;
+  }
+
+  .icon {
+    width: 80px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+  .icon img {
+    width: 40px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .icon-details {
+    height: 320px;
+  }
+
+  .title-text {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .brand-img {
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+  }
